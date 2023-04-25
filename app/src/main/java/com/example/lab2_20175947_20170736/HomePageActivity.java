@@ -5,29 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
-    private EditText et_correo;
-    private EditText et_contraseña;
+public class HomePageActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        et_correo=(EditText)findViewById(R.id.t_email);
-        et_contraseña=(EditText)findViewById(R.id.t_pass);
-
+        setContentView(R.layout.home_page);
+        //jhgjjh
     }
-
-    public void iniciarsesion(View view){
-        Intent iniciar = new Intent(this,MainActivity2.class);
-        startActivity(iniciar);
-
-
+    public void regresar(View view){
+        Intent regresar = new Intent(this,MainActivity.class);
+        startActivity(regresar);
     }
-
-
-
 }
