@@ -78,6 +78,7 @@
         android:layout_height="21.1dp"
         android:layout_marginStart="6dp"
         android:layout_marginTop="42dp"
+        android:onClick="regresar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/homeAsUpIndicator" />
