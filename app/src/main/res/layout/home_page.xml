@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="9.8sp"
+        android:textColor="#273431"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Bienvenido Teleco" />
+
+
+    <RelativeLayout
+        android:id="@+id/laya1"
+        android:layout_width="291dp"
+        android:layout_height="253dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="156dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="291dp"
+            android:layout_height="181dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-2dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bienvenidaTele" />
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#273431"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="Fiesta Cachimbos - Lima" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tendencias"
+        android:layout_width="332dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="422dp"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="5sp"
+        android:textColor="#273431"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Tendencias" />
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="20dp"
+
+        android:layout_height="21.1dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="21.1dp"
+
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+    <TextView
+        android:id="@+id/recomend"
+        android:layout_width="333dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/poppins_bold"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="5sp"
+        android:textColor="#273431"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Recomendados para ti" />
+
+    <RelativeLayout
+        android:layout_width="291dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="491dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="291dp"
+            android:layout_height="181dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-2dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ferxxo" />
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="43dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#273431"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="FERXXO - Lima" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
