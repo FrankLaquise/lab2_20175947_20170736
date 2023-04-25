@@ -40,6 +40,18 @@
             android:layout_marginTop="-2dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/bienvenidaTele" />
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="37dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#273431"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="Fiesta Cachimbos - Lima" />
     </RelativeLayout>
 
     <TextView
@@ -117,5 +129,17 @@
             android:layout_marginTop="-2dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/ferxxo" />
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="43dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#273431"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            tools:text="FERXXO - Lima" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
